@@ -75,6 +75,7 @@ The application features **JWT authentication**, real-time UI updates with **Tan
 TaskTracker
 │
 ├── backend
+|   ├── config
 │   ├── controllers
 │   ├── middleware
 │   ├── models
