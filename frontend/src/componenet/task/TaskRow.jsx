@@ -84,7 +84,7 @@ const TaskRow = ({ task, onEdit, onDelete }) => {
       {/* Actions */}
 
       <td className="flex py-6 justify-center">
-        <div className="flex justify-end pr-8 gap-2 opacity-0 transition duration-200 group-hover:opacity-100">
+        <div className="flex justify-end pr-8 gap-2 md:opacity-0 transition duration-200 md:group-hover:opacity-100">
           <button className="rounded-lg p-2 text-slate-500 transition hover:bg-indigo-100 hover:text-indigo-600">
             <Pencil onClick={() => onEdit(task)} size={18} />
           </button>
